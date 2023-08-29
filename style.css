@@ -1,0 +1,26 @@
+/* Coloque aqui o estilo desejado para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  pre {
+    background-color: #ffaaaa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+   
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  img:hover {
+    max-width: 75%;
+    height: auto;
+  }

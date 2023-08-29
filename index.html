@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apresentação do Algoritmo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Algoritmo 64 - "Sequência Invertida"</h1>
+    <h2>Execução do JavaScript</h2>
+    <input id="entrada" type="text" placeholder="Verificação de sequencia">
+    <p id="output">
+ 
+    </p>
+    <button onclick="executarExemplo()">Executar</button>
+    <h1>Algoritmo Exemplo</h1>
+    <h2>Pseudocódigo</h2>
+    <pre>
+    algoritmo "Verificação de Sequência"
+
+var
+   sequenciaInput: caractere
+   sequenciaInvertida: caractere = "10 9 8 7 6 5 4 3 2 1"
+   i: inteiro
+
+inicio
+   escreva("Digite a sequência invertida de números de 1 a 10:")
+   leia(sequenciaInput)
+
+   se sequenciaInput = sequenciaInvertida entao
+      escreva("Você terminou a sequência corretamente.")
+   senao
+      escreva("Você errou a sequência.")
+   fimse
+fimalgoritmo
+    funcao exemplo(algumaEntrada) {
+      // instruções do algoritmo
+    }
+  </pre>
+  
+  <h2>Visualg</h2>
+  <img src="visualg.png" alt="Execução do pseudocódigo no Visualg">
+  
+  <h2>Código JavaScript</h2>
+  <pre>
+    function executarExemplo() {
+      // Chame a função exemplo com os parâmetros desejados
+      var resultado = document.getElementById("entrada").value;
+      // .value para pegar o valor do objeto
+      var condicao ="10 9 8 7 6 5 4 3 2 1"
+      // Exiba o resultado na página
+      var outputDiv = document.getElementById("output");
+  
+      // Verificaçao de igualdade de sequencia
+      if (condicao === resultado) {
+        outputDiv.innerHTML = "Você terminou a sequência corretamente."
+      } else {
+        outputDiv.innerHTML = "Você errou a sequencia. "
+      }
+    }
+  </pre>
+  
+  
+  <script src="script.js" ></script>
+</body>
+</html>
